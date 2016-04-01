@@ -14,7 +14,7 @@ from devicehub.app.utils import Event
 from devicehub.app.utils import RDFS
 
 
-class ToClassDiagram:
+class DeviceHubClassDiagram:
     def __init__(self, app):
         home = expanduser('~')
         self.g = Digraph(format='png', directory=home)
