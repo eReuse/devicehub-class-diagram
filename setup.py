@@ -11,7 +11,7 @@ setup(
     description='A small utility to generate class diagrams from the resources of DeviceHub',
     install_requires=[
         'graphviz',
-        'DeviceHub'
+        'eReuse-DeviceHub'
     ],
     include_package_data=True
 )
