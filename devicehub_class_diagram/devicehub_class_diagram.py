@@ -8,11 +8,9 @@
 from collections import OrderedDict
 from graphviz import Digraph
 from os.path import expanduser
-from devicehub.app.utils import Naming
-from devicehub.app.utils import Device
-from devicehub.app.utils import Event
-from devicehub.app.utils import RDFS
-
+from ereuse_devicehub.resources.device.settings import Device
+from ereuse_devicehub.resources.event.settings import Event
+from ereuse_devicehub.resources.schema import RDFS
 
 class DeviceHubClassDiagram:
     def __init__(self, app):
