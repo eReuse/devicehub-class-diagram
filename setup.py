@@ -10,8 +10,7 @@ setup(
     author_email='x.bustamante@ereuse.org',
     description='A small utility to generate class diagrams from the resources of DeviceHub',
     install_requires=[
-        'graphviz',
-        'eReuse-DeviceHub'
+        'graphviz'
     ],
     include_package_data=True
 )
